@@ -9,25 +9,17 @@ int x;
 int somma=0;
 
 int main(){
-    freopen("./input/3", "r", stdin);
-    freopen("./output/3", "w", stdout);
+    freopen("./input/", "r", stdin);
+    freopen("./output/", "w", stdout);
 
     cin>>n;
     int v[n];
 
+/* \\formare un vettore con gli elementi dati
     for (int i=0; i<n; i++){
         riempiVettore(v,n);
 
     }
+*/
 
-    for(int i=0; i<n; i++){
-        if(v[i]%2==0){
-            v[i]=v[i]/2;
-        }
-        else{
-            v[i]=v[i]*2;
-        }
-    }
-
-    stampaVettore(v,n);
 }
