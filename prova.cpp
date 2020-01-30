@@ -11,8 +11,8 @@ int x;
 int a,b,c,d,e;
 
 int main(){
-    freopen("./input/", "r", stdin);
-    freopen("./output/", "w", stdout);
+    freopen("./file inutili/input/1", "r", stdin);
+    freopen("./file inutili/output/7", "w", stdout);
 
     //cin>>n;
     //int v[n];
@@ -70,6 +70,18 @@ int main(){
         }
     }
     */
-
+   bool primo=true;
+   int v=7269642987;
+   for(int i =1; i<v/2; i++){
+       if(v%i==0){
+           primo=false;
+       }
+   }
+   if(primo==true){
+       cout<<"il numero è primo";
+   }
+   else{
+       cout<<"il numero non è primo";
+   }
 
 }
